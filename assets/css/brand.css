@@ -1,0 +1,26 @@
+.brandBottles{
+	display: flex;
+    margin-top: 50px;
+	padding: 0px 50px;
+}
+.brandBottles img{
+	margin-right: 53px;
+	height: 172px;
+}
+.content{
+	height: 100%;
+	background: #fff;
+}
+.brand-submit{
+	width: 100px;
+    color: #000;
+	background: #fff;
+    border: 1px solid #000;
+    border-radius: 25px;
+    height: 40px;
+    margin-top: 5%;
+    position: relative;
+    right: 15px;
+    bottom: 25px;
+	margin-bottom: 30px;
+}

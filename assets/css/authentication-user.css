@@ -1,0 +1,171 @@
+.form-control {
+    background-color: #eee;
+}
+
+.form-control:focus {
+    background-color: #fff;
+    box-shadow: none;
+}
+
+.bg-img {
+    background-image: url('../images/banner.jpg');
+    background-position: center center;
+    background-size: cover;
+    height: 100vh;
+    display: table;
+    width: 100%;
+    background-repeat: no-repeat;
+}
+
+.login-container,
+.registration-container {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.login-container .login-form {
+    max-width: 440px;
+}
+
+.registration-container {
+    padding: 90px 0 30px;
+}
+
+.registration-container .registration-form {
+    max-width: 740px;
+}
+
+.login-container .login-form,
+.registration-container .registration-form {
+    background-color: rgba(255, 255, 255, 0.95);
+    margin: 0 15px;
+    padding: 20px;
+    display: block;
+    border-radius: 8px;
+    position: relative;
+}
+
+.file {
+    visibility: hidden;
+    position: absolute;
+}
+
+.login-container .fa {
+    min-width: 16px;
+}
+
+.logo-left img {
+    max-width: 150px;
+}
+
+.logo .logo-right h3 {
+    font-weight: 600;
+}
+.cust-btn{min-width: 200px;}
+.register-tooltip {
+    position: absolute;
+    top: -20px;
+    right: 20px;
+}
+.error{
+    color: #a91515;
+    font-size: 12px;
+}
+@media(max-width: 767px) {
+    .logo .logo-left img {
+        margin: auto;
+    }
+    .logo .logo-right h3 {
+        border-bottom: 2px solid #ddd;
+        padding-bottom: 15px;
+        text-align: center;
+    }
+    .title {
+        text-align: center;
+    }
+}
+
+@media(min-width: 768px) {
+    .login-container .login-form,
+    .registration-container .registration-form {
+        margin: 0 auto;
+        padding: 30px;
+    }
+    .logo {
+        margin-bottom: 15px;
+        display: table;
+        width: 100%;
+        table-layout: fixed;
+        vertical-align: bottom;
+    }
+
+    .logo .logo-left {
+        display: table-cell;
+        width: 50%;
+    }
+    .logo .logo-right {
+        display: table-cell;
+        width: 50%;
+        text-align: right;
+    }
+    .logo .logo-right h3 {
+        margin: 0;
+        
+    }
+}
+
+
+
+
+
+/*option 2*/
+
+.pt-75 {
+    padding-top: 75px !important;
+}
+
+.logo2 .logo-left {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: -75px;
+    width: 160px;
+    height: 160px;
+    background: #fff;
+    border-radius: 100%;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+    line-height: 160px;
+    margin: auto;
+    text-align: center;
+}
+
+.logo2 .logo-right h3 {
+    font-weight: 600;
+}
+
+.logo2 .logo-left img {
+    max-width: 130px;
+    display: inline-block;
+}
+
+@media(max-width: 767px) {
+    .logo2 .logo-left img {
+        margin: auto;
+    }
+    .logo2 .logo-right h3 {
+        border-bottom: 2px solid #ddd;
+        padding-bottom: 15px;
+        text-align: center;
+    }
+}
+
+@media(min-width: 768px) {
+    .logo2 .logo-right h3 {
+        margin-bottom: 0;
+        
+    }
+}
+
+
+
+/*option2 ends*/

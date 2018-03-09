@@ -1,0 +1,21 @@
+.inner-header{
+	height: 70px;
+	padding: 15px;
+	background: #B6C6E8;
+	display: flex;	
+}
+.inner-header h2{
+	margin: 0px;
+    font-weight: bold;
+    color: #000;
+}
+.inner-header a{
+	color: #000;
+    font-weight: 500;
+    line-height: 3;
+    margin-left: 20px;
+}
+.inner-header a.active {
+    text-decoration: underline;
+    font-weight: 900;
+}
